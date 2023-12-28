@@ -1,0 +1,35 @@
+@import url("https://fonts.googleapis.com/css2?family=Handlee&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600;700;800&display=swap");
+
+body {
+  background-color: antiquewhite;
+  margin: 0px;
+}
+.main {
+  height: 80vh;
+  width: 99vw;
+  padding-top: 20vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  h1 {
+    font-family: "Handlee";
+  }
+  .cars {
+    margin-top: 20px;
+    .car {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-bottom: 15px;
+      .image {
+        height: 250px;
+        margin-right: 30px;
+      }
+      .license {
+        font-size: 25px;
+        font-family: "Rubik";
+      }
+    }
+  }
+}
